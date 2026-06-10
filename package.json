@@ -1,0 +1,33 @@
+{
+  "name": "protfolio_mail_service",
+  "version": "1.0.0",
+  "description": "Email service for my portfolio website.",
+  "homepage": "https://github.com/YUGESHKARAN/protfolio_email_service#readme",
+  "bugs": {
+    "url": "https://github.com/YUGESHKARAN/protfolio_email_service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUGESHKARAN/protfolio_email_service.git"
+  },
+  "license": "ISC",
+  "author": "Yugeshkaran",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "nodemailer": "^8.0.11",
+    "serverless-http": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
