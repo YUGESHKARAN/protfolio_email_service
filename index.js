@@ -10,7 +10,7 @@ const app = express();
 const corsOption = {
     origin:[
         "http://localhost:5173",
-        "https://my-portfolio-eta-three-28.vercel.app/",
+        "https://my-portfolio-eta-three-28.vercel.app",
     ],
     methods : ["GET","POST","PUT"],
     Credentials:true,
